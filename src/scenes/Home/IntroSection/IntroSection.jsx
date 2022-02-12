@@ -36,7 +36,7 @@ const IntroSection = () => {
             </p>
 
             <p>
-              A passionate Full Stack Software Developer 🚀 <br />I
+              A passionate Full Stack Web Developer 🚀 <br />I
               have an experience of building{' '}
               <i>
                 <b className={s.purple}>Web and Mobile</b>
@@ -67,7 +67,7 @@ const IntroSection = () => {
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/AmeeHamz"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -77,7 +77,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
+              href=" "
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -87,7 +87,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://t.me/snaichuk_v"
+              href=" "
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -97,7 +97,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/ameer-hamza-ab31b6229/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

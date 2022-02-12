@@ -14,18 +14,18 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h3>Designed and Developed by Snaichuk Volodymyr</h3>
+          <h3>Designed and Developed by Ameehamz</h3>
         </div>
 
         <div className={s.copyright}>
-          <h3>Copyright © {year} SV.dev</h3>
+          <h3>Copyright © {year} Ameehamz</h3>
         </div>
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
             <li>
               <a
-                href="https://github.com/vsnaichuk"
+                href="https://github.com/AmeeHamz"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.facebook.com/Snaychuk"
+                href=" "
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,7 +43,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://t.me/snaichuk_v"
+                href=" "
                 target="_blank"
                 rel="noreferrer"
               >
@@ -52,7 +52,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+                href="https://www.linkedin.com/in/ameer-hamza-ab31b6229/"
                 target="_blank"
                 rel="noreferrer"
               >
