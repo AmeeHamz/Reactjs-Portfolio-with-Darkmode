@@ -1,21 +1,21 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
+import { SiFreelancer } from 'react-icons/si';
 import {
   FaFacebookSquare,
   FaLinkedinIn,
-  FaTelegramPlane,
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const IntroSection = () => {
   return (
-    <section className={s.content}>
+    <section className={s.content}> 
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME <span className={s.purple}> INTRODUCE </span>{' '}
+            LET ME <span className={s.purple}> INTRODUCE </span>
             MYSELF
           </h1>
 
@@ -87,12 +87,12 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href=" "
+              href="https://www.freelancer.pk/u/Ameehumz?filter=active "
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <FaTelegramPlane />
+              <SiFreelancer />
             </a>
           </li>
           <li className={s.socialLink}>

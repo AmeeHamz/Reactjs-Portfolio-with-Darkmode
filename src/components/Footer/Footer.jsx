@@ -1,10 +1,10 @@
 import s from './Footer.module.scss';
 import { AiFillGithub } from 'react-icons/ai';
-import {
+import { SiFreelancer } from 'react-icons/si';
+import { 
   FaFacebookSquare,
-  FaLinkedinIn,
-  FaTelegramPlane,
-} from 'react-icons/fa';
+  FaLinkedinIn ,
+ } from 'react-icons/fa';
 
 const Footer = () => {
   let date = new Date();
@@ -43,22 +43,23 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href=" "
+                href="https://www.freelancer.pk/u/Ameehumz"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaTelegramPlane />
+                <SiFreelancer />
               </a>
             </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/ameer-hamza-ab31b6229/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
+            <li className={s.socialLink}>
+            <a
+              href="https://www.linkedin.com/in/ameer-hamza-ab31b6229/"
+              target="_blank"
+              rel="noreferrer"
+              className={s.socialIcon}
+            >
+              <FaLinkedinIn />
+            </a>
+          </li>
           </ul>
         </div>
       </div>
